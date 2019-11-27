@@ -1,0 +1,56 @@
+{
+  "queryParams": {
+
+  },
+  "topic": "tts.or.topic.ttm.dev",
+  "currentState": {
+    "lifeState": "ACTV",
+    "ownerRefId": "",
+    "crtdDt": "2019-09-29T08:47:12.486Z",
+    "appName": "TTM_TORIS_DEV",
+    "userId": "ttm-toris-dev-ug@trimble.com",
+    "tId": "trn:tts:or::ttm-dev:10805:VEHICLES:bae19152-e295-11e9-b735-023e4652a5b6",
+    "ud": {
+      "cfc": {
+        "sourceCategory": "vehicles",
+        "customerId": 1001428,
+        "vehicleId": 5733,
+        "deviceIds": [
+
+        ],
+        "vehicleNumber": null,
+        "status": "ACTV"
+      },
+      "usedBy": [
+        "cfc"
+      ],
+      "toris": {
+        "torisTag": "31c3e8c1-2a92-44c4-a992-bb1be86f000e"
+      },
+      "eventDetails": {
+        "generatedBy": "cfc",
+        "operation": "POST"
+      }
+    },
+    "descr": "Create vehicle empty vin",
+    "uId": {
+      "mnf:mdl:sn": "::290902AB12"
+    },
+    "deleted": false,
+    "tenantName": "ttm-dev",
+    "scmaVer": "v1",
+    "appId": "c18b83e7-3176-4b8e-b221-9692d924cee5",
+    "name": "Toris Test Vehicle 01",
+    "tenantId": "10805",
+    "sn": "290902AB12",
+    "_id": "trn:tts:or::ttm-dev:10805:VEHICLES:bae19152-e295-11e9-b735-023e4652a5b6",
+    "uptdDt": "2019-09-29T08:47:12.486Z",
+    "ownedBy": "cfc",
+    "accountTId": "trn:tts:or::ttm-dev:10805:ACCOUNTS:c014e1b5-a7d4-11e9-9d7b-06cc06ac21a0",
+    "objCat": "VEHICLES"
+  },
+  "operation": "POST",
+  "previousState": {
+
+  }
+}
