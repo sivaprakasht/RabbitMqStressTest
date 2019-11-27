@@ -13,6 +13,8 @@ run_every_seconds = 1
 total_no_messages_per_given_time = 100
 
 rabbit_mq_host = ''
+exchange_name = 'toris-ens-events-dx'
+routing_key = 'objCat.vehicles'
 
 
 def start():
@@ -26,8 +28,6 @@ def start():
 
 def publish_vehicles():
     payload = load_message_from_file()
-    exchange_name = 'toris-ens-events-dx'
-    routing_key = 'objCat.vehicles'
     publish_to_rabbitmq(exchange_name, routing_key, payload)
 
 
